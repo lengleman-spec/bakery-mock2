@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HERO SECTION */
+
 .hero-container {
   background-image: url(imgs/baked_goods.jpg);
   background-size: cover;
