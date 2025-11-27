@@ -143,3 +143,15 @@ header {
   text-align: center;
   margin: 3rem 0;
 }
+
+/* ===== CARDS ===== */
+/* .card {
+  display: flex;
+  flex-direction: column;
+} */
+
+.cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
