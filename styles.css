@@ -135,8 +135,14 @@ header {
 }
 
 /* ===== TOP PRODUCTS ===== */
+.products-section {
+  margin: 50px;
+}
+
 .products-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
 }
 
 .products-section h2 {
@@ -147,6 +153,7 @@ header {
 /* ===== CARDS ===== */
 .card {
   border: 1px solid red;
+  padding: 1rem;
 }
 
 .cost,
@@ -154,8 +161,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 200px;
 }
 
 .item p {
   display: inline-block;
+}
+
+.card img {
+  border-radius: 4px;
+  max-width: 200px;
+  width: 100%;
 }
