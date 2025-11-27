@@ -150,8 +150,13 @@ header {
   flex-direction: column;
 } */
 
-.cost {
+.cost,
+.item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.item p {
+  display: inline-block;
 }
