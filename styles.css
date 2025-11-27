@@ -107,8 +107,7 @@ header {
   background-image: url(imgs/baked_goods.jpg);
   background-size: cover;
   background-position: center;
-  height: 75vh;
-  border: 2px solid red;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,6 +130,16 @@ header {
   border-radius: 4px;
 }
 
-button:last-child {
+.hero-container button:last-child {
   margin-left: 1rem;
+}
+
+/* ===== TOP PRODUCTS ===== */
+.products-container {
+  display: flex;
+}
+
+.products-section h2 {
+  text-align: center;
+  margin: 3rem 0;
 }
