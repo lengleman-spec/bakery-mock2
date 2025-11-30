@@ -150,6 +150,10 @@ header {
   margin: 0 auto;
 }
 
+.products-section {
+  padding-bottom: 48px;
+}
+
 .products-section h2 {
   text-align: center;
   margin: 3rem 0;
