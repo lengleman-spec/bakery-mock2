@@ -250,15 +250,28 @@ h2 {
 /* EXPLORE MORE SECTION */
 .explore-card {
   display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin: 1rem 2rem;
+  border: 2px solid #222;
+  border-radius: 10px;
 }
 
 .explore-card img {
   width: 50%;
+  border-radius: 6px;
 }
 
 .explore-card h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.explore-card-text {
+  text-align: left;
+  max-width: 200px;
+  margin-left: 1rem;
 }
 
 /* ===== CTA SECTION ===== */
