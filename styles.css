@@ -6,12 +6,17 @@
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
 }
+:root {
+  --background-1: #f2eae0;
+  --btn-primary: #933c24;
+  --gray: #585858;
+}
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #585858;
+  background: var(--gray);
 }
 
 h2 {
@@ -21,7 +26,7 @@ h2 {
 }
 /* Buttons */
 .btn-primary {
-  background-color: #933c24;
+  background-color: var(--btn-primary);
   color: white;
   padding: 0.5rem 1rem;
   border: none;
@@ -55,7 +60,7 @@ h2 {
 /* NAV WRAPPER */
 .navbar {
   position: relative;
-  background: #585858;
+  background: var(--gray);
   padding: 1rem;
 }
 
@@ -173,15 +178,9 @@ h2 {
   margin: 0 auto;
 }
 
-.products-section h2 {
-  text-align: center;
-  margin: 3rem 0;
-  font-size: 2rem;
-}
-
 /* ===== CARDS ===== */
 .card {
-  border: 2px solid #585858;
+  border: 2px solid var(--gray);
   border-radius: 8px;
   padding: 1rem;
   margin: 0 20px;
@@ -249,8 +248,23 @@ h2 {
 }
 
 /* About Us Section */
-.about-section h2 {
+.about-section {
   text-align: center;
-  margin: 3rem 0;
-  font-size: 2rem;
+  background-color: var(--background-1);
+  height: 100vh;
+}
+
+.about-section p {
+  font-size: 1.5rem;
+}
+
+.about-section button {
+  margin: 2rem 0;
+}
+
+.about-section img {
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
 }
