@@ -325,3 +325,38 @@ h2 {
   width: 90%;
   margin: 1rem auto;
 }
+
+.footer-icon {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.footer-h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-yellow);
+}
+
+address {
+  font-style: normal;
+}
+
+address a {
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links span {
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.social-links i {
+  margin: 0 4px;
+  font-size: 1.1rem;
+}
