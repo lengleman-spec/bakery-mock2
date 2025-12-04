@@ -10,14 +10,16 @@
   --background-1: #f2eae0;
   --btn-primary: #933c24;
   --background-2: #9c5946;
+  --primary-yellow: #eb9830;
   --gray: #585858;
+  --nude: #e2d9ca;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--gray);
+  background: var(--background-2);
 }
 
 h2 {
@@ -28,13 +30,13 @@ h2 {
 
 /* Buttons */
 .btn-primary {
-  background-color: var(--btn-primary);
+  background-color: var(--primary-yellow);
   color: white;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .btn-secondary {
@@ -62,7 +64,7 @@ h2 {
 /* NAV WRAPPER */
 .navbar {
   position: relative;
-  background: var(--gray);
+  background: var(--background-2);
   padding: 1rem;
 }
 
@@ -182,9 +184,9 @@ h2 {
 
 /* ===== CARDS ===== */
 .card {
-  border: 2px solid #803723;
+  border: 2px solid var(--primary-yellow);
   border-radius: 8px;
-  box-shadow: 5px 10px 17px black;
+  box-shadow: 5px 8px 12px var(--primary-yellow);
   padding: 1rem;
   margin: 0 20px;
   display: flex;
@@ -254,12 +256,13 @@ h2 {
 .explore-card {
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--background-2);
+  background-color: var(--nude);
+
   padding: 1.25rem;
   margin: 2rem;
-  border: 2px solid #222;
+  border: 2px solid var(--primary-yellow);
   border-radius: 10px;
-  box-shadow: -16px -8px 15px var(--gray);
+  box-shadow: -12px -6px 8px var(--primary-yellow);
 }
 
 .explore-card img {
@@ -300,3 +303,5 @@ h2 {
   color: white;
   text-shadow: 2px 2px #5f5f5f;
 }
+
+/* Footer Section */
