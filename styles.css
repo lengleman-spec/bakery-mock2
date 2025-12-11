@@ -177,6 +177,7 @@ h2 {
   align-items: stretch;
   gap: 50px 0;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 /* ===== CARDS ===== */
@@ -184,12 +185,13 @@ h2 {
   border: 2px solid var(--primary-yellow);
   border-radius: 8px;
   box-shadow: 5px 8px 12px var(--primary-yellow);
-  padding: 1rem;
-  margin: 0 20px;
+  padding: 2rem;
+  margin: 0 0.9rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   min-height: 420px;
 }
 
@@ -197,6 +199,7 @@ h2 {
   border-radius: 4px;
   height: 400px;
   width: 100%;
+
   object-fit: cover; /* Forces a fixed img height */
   aspect-ratio: 16/10; /* Reserves img space */
 }
@@ -231,7 +234,7 @@ h2 {
 .about-section {
   text-align: center;
   background-color: var(--background-1);
-  padding: 3rem 0;
+  padding: 3rem 1.5rem;
 }
 
 .about-section p {
@@ -250,6 +253,11 @@ h2 {
 }
 
 /* EXPLORE MORE SECTION */
+.explore-section {
+  margin: 1.5rem;
+  margin-bottom: 4rem;
+}
+
 .explore-card {
   display: flex;
   justify-content: space-evenly;
@@ -362,40 +370,24 @@ address a {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 768px) {
-  .products-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 900px;
-  }
-  address,
-  .footer-h4 {
-    font-size: 1.5rem;
-  }
-  .news-container p {
-    font-size: 1.2rem;
-  }
-  .explore-card {
-    margin: 4rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .about-section {
-    text-align: left;
-    padding: 3rem;
-  }
-  .about-container {
+/* @media (max-width: 768px) {
+  .hamburger {
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  .about-text p {
-    font-size: 1.75rem;
-    max-width: 500px;
+
+  .menu {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    width: 200px;
+    display: none;
   }
-  .about-container img {
-    width: 400px;
-    height: 400px;
+
+  #menu-toggle:checked ~ .menu {
+    display: flex;
   }
-}
+} */
