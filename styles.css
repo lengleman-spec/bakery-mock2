@@ -432,4 +432,22 @@ address a {
     font-size: 36px;
     padding: 1rem 0;
   }
+
+  .cta-bg {
+    height: 400px;
+  }
+
+  .cta-bg h3 {
+    font-size: 3rem;
+    font-family: "Sansita Swashed", sans-serif;
+    color: white;
+    text-shadow: 2px 2px #474747;
+  }
+
+  .cta-bg p {
+    font-size: 1.5rem;
+    margin: 20px 90px;
+    color: white;
+    text-shadow: 2px 2px #5f5f5f;
+  }
 }
