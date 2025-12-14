@@ -166,6 +166,15 @@ h2 {
   margin-top: 2rem;
 }
 
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: #474747;
+}
+
 .hero-container button:last-child {
   margin-left: 1rem;
 }
